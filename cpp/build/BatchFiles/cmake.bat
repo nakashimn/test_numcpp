@@ -8,7 +8,7 @@ for /D %%f in ( * ) do call :rmfiles "%%f" d
 
 cmake ../src
 
-msbuild blas.sln /p:Configuration=Release
+msbuild Test_NumCpp.sln /p:Configuration=Release
 
 exit /b
 

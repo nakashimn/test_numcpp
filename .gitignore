@@ -2,3 +2,5 @@
 /build
 /cpp/build/*
 !/cpp/build/BatchFiles
+/cpp/src/include
+/cpp/src/lib
